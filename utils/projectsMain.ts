@@ -1,4 +1,4 @@
-import { imgPaths } from '/imgPaths';
+import { imgPaths } from './imgPaths';
 
 export interface ProjectType {
   name: string
