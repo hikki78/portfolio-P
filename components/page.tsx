@@ -1,7 +1,6 @@
 import { Footer } from "./Footer";
 import { ReactNode } from "react";
 import NavBar from "./NavBar";
-import Link from "next/link";
 import PageTransition from "./pagetransition";
 import styles from "../styles/page.module.scss";
 

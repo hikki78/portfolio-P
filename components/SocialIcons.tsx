@@ -2,7 +2,6 @@ import React from 'react'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { MdNorthEast } from 'react-icons/md'
 import { SiLeetcode } from 'react-icons/si'
-import GifHolder from './message/GifHolder'
 import styles from '../styles/mainheader.module.scss'
 
 export function SocialIcons({ scrollFunction }: any) {
