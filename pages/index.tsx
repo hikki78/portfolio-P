@@ -1,5 +1,5 @@
-import { SocialIcons } from "./../components/SocialIcons";
-import { MainHeader } from "../components/MainHeader";
+import { SocialIcons } from "@components/SocialIcons";
+import { MainHeader } from "@components/MainHeader";
 import React, { useEffect, useRef } from "react";
 import type { NextPage } from "next";
 // import useSWR from 'swr'

@@ -21,10 +21,9 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@components/*": ["components/*"]
     },
     "target": "es5",
     "forceConsistentCasingInFileNames": true
