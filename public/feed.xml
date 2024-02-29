@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Meghadri]]></title>
+        <description><![CDATA[Meghadri]]></description>
+        <link>https://www.megh.dev/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 23 Feb 2024 21:01:26 GMT</lastBuildDate>
+        <pubDate>Fri, 23 Feb 2024 21:01:26 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2024, Meghadri Mukherjee]]></copyright>
+        <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Deep dive into react refs and callback refs]]></title>
+            <description><![CDATA[Deep dive into react refs and callback refs]]></description>
+            <link>https://www.shanmukh.xyz/blog/deep-dive-into-react-refs</link>
+            <guid isPermaLink="true">https://www.shanmukh.xyz/blog/deep-dive-into-react-refs</guid>
+            <pubDate>Sat, 29 Oct 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[React useReducer hook Simplified]]></title>
+            <description><![CDATA[React useReducer hook Simplified]]></description>
+            <link>https://www.shanmukh.xyz/blog/react-use-reducer-simplified</link>
+            <guid isPermaLink="true">https://www.shanmukh.xyz/blog/react-use-reducer-simplified</guid>
+            <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Lazy Initilization and storing functions in React useState hook]]></title>
+            <description><![CDATA[Lazy Initilization and storing functions in React useState hook]]></description>
+            <link>https://www.shanmukh.xyz/blog/use-state-lazy-init</link>
+            <guid isPermaLink="true">https://www.shanmukh.xyz/blog/use-state-lazy-init</guid>
+            <pubDate>Sun, 28 Aug 2022 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

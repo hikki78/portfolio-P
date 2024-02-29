@@ -1,0 +1,72 @@
+@use '../mixins.scss' as *;
+
+.messageComponent {
+  width: 100%; // reduce width to 80% of the parent element
+  margin: 2rem auto; // center the element horizontally
+  padding: 1rem;
+  border: 1px solid var(--text);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headingContainer {
+  align-self: center;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.messageHeading {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--brand);
+}
+
+.subContainer,
+.gifHandler {
+  flex: 1;
+  animation: fadeIn 2s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.5); // white with 50% opacity
+  padding: 1rem;
+  border-radius: 1rem;
+  order: 1;
+  width: 100%;
+  max-width: 600px; // limit width for larger screens
+
+  a {
+    color: yellow;
+  }
+    svg {
+      color: yellow;
+    }
+}
+
+.gifHandler {
+  border: none;
+  margin: 0;
+  order: 2;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .subContainer {
+    font-size: 14px;
+  }
+}
