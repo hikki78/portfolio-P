@@ -16,13 +16,6 @@ function App({ Component, pageProps }: AppProps): JSX.Element {
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Script
-        id="recaptcha"
-        src="https://www.google.com/recaptcha/api.js"
-        onError={e => {
-          console.error('Script failed to load', e)
-        }}
-      />
       <Toaster position="top-right" reverseOrder={false} />
       <BackToTopButton />
       <AnimatePresence initial={false}>
