@@ -1,20 +1,19 @@
-/** @type {import('next').NextConfig} */
-// next.config.mjs
-const nextConfig = {
-  reactStrictMode: true,
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    config.experiments = {
-      asyncWebAssembly: true,
-      layers: true, // Enable 'layers' experiment
-    };
+// next.config.js
 
-    config.module.rules.push({
-      test: /\.wasm$/,
-      type: "webassembly/async",
-    });
+module.exports = {
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.experiments = {
+        asyncWebAssembly: true,
+      };
+
+      config.module.rules.push({
+        test: /\.wasm$/,
+        type: "webassembly/async",
+        issuer: /\.(js|ts)x?$/,
+      });
+    }
 
     return config;
   },
 };
-
-export default nextConfig;
