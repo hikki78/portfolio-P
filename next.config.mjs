@@ -5,6 +5,7 @@ const nextConfig = {
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.experiments = {
       asyncWebAssembly: true,
+      layers: true, // Enable 'layers' experiment
     };
 
     config.module.rules.push({
