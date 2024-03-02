@@ -29,7 +29,7 @@ export default class MyDocument extends Document {
           />
           <link rel="preload" as="image" href="/blob_bg.webp" />
           <link rel="icon" type="image/x-icon" href="/avatar.svg" />
-          <meta property="og:image" content="https://megh.codes" />
+          <meta property="og:image" content="https://megh.codes/api/og" />
 
           {process.env.NODE_ENV === "production" && (
             <script

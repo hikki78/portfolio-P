@@ -70,7 +70,7 @@ export default async function handler(req) {
               whiteSpace: 'pre-wrap',
             }}
           >
-            <b>Sai Shanmukh</b>
+            <b>Meghadri Mukherjee</b>
           </div>
           <div
             style={{
@@ -98,7 +98,7 @@ export default async function handler(req) {
                 opacity: 0.6,
               }}
             >
-              <b> shanmukh.xyz </b>
+              <b> megh.codes </b>
             </span>
           </div>
         </div>
