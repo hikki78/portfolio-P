@@ -12,7 +12,6 @@ const footerLinks = [
     { name: "Home", url: "/" },
     { name: "Blog", url: "/About Me" },
     { name: "Projects", url: "/projects" },
-    { name: "RSS", url: "/feed.xml" },
   ],
   [
     { name: "Mail", url: "mailto:meghadrimukherjee680@gmail.com" },
