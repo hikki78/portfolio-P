@@ -1,6 +1,6 @@
-// next.config.js
+// next.config.mjs
 
-module.exports = {
+const config = {
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.experiments = {
@@ -17,3 +17,5 @@ module.exports = {
     return config;
   },
 };
+
+export default config;
