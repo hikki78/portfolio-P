@@ -4,7 +4,6 @@ export const config = {
   runtime: 'experimental-edge',
 }
 // fetching custom font stored in the public directory
-const font = fetch(new URL('/public/fonts/outfit-v4-latin-500.ttf', import.meta.url)).then(res => res.arrayBuffer())
 
 export default async function handler(req) {
   try {
