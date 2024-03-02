@@ -21,17 +21,17 @@ const Home: NextPage = () => {
     parentRef.current.scrollIntoView();
   };
 
-  // const fetcher = (url: RequestInfo | URL) => fetch(url).then(r => r.json())
-  // const { data } = useSWR('/api/spotify', fetcher)
-  // console.log(data)
-
   return (
     <>
       <Head>
+        <meta name="image" property="og:image" content="meghdev.png" />
+        <meta name="author" content="Meghadri Mukherjee" />
         <meta
-          property="og:image"
-          content="https://www.canva.com/design/DAF-XbgSe4E/Djmsg-RF6446Bgvy38IKCA/edit?utm_content=DAF-XbgSe4E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+          name="description"
+          property="og:description"
+          content="Welcome to Megh's Portfolio"
         />
+        <meta name="title" property="og:title" content="Tap here :)" />
       </Head>
       <main className={styles.header_container}>
         <NavBar />
